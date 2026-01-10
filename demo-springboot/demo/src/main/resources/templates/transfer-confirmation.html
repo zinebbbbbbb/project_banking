@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Confirmation</title>
+</head>
+<body>
+<h2>Transfer Confirmation</h2>
+<p>Dear <span th:text="${customerName}">Customer</span>,</p>
+<p>Your transfer has been successfully processed.</p>
+<ul>
+    <li>Amount: <b th:text="${amount}">0</b></li>
+    <li>Description: <span th:text="${description}">N/A</span></li>
+</ul>
+<p>Thank you for using our service.</p>
+</body>
+</html>
