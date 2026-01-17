@@ -5,6 +5,7 @@ import com.example.demo.Account.AccountRepository;
 import com.example.demo.Client.Client;
 import com.example.demo.Client.ClientRepository;
 import com.example.demo.Kafka.TransferProducer;
+import com.example.demo.Notification.TransferConfirmation;
 import com.example.demo.security.Utilisateurs;
 import com.example.demo.security.UtilisateursRepository;
 import lombok.RequiredArgsConstructor;

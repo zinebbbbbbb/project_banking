@@ -113,7 +113,9 @@ services:
       fast_api:
         condition: service_started
     environment:
-      - SPRING_CONFIG_NAME=application-docker
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/projet_banking
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=zineb
     restart: on-failure
 
 networks:

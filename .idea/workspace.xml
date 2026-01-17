@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b6c554-dc4e-4c76-93c3-81781543c322" name="Changes" comment="" />
+    <list default="true" id="05b6c554-dc4e-4c76-93c3-81781543c322" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b3187aa-2bb5-4deb-a307-f681cce3f78c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b3187aa-2bb5-4deb-a307-f681cce3f78c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b3187aa-2bb5-4deb-a307-f681cce3f78c/storage_v2/_src_/database/projet_banking.s3-ODA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b3187aa-2bb5-4deb-a307-f681cce3f78c/storage_v2/_src_/database/projet_banking.s3-ODA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Kafka/TransferProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Kafka/TransferProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransferConfirmation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +35,9 @@
         <option value="Record" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -37,7 +56,9 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/zineb/OneDrive/Desktop/p_pfa/python_folder/app&quot;,
@@ -175,7 +196,10 @@
       <workItem from="1768000937020" duration="19000" />
       <workItem from="1768048132472" duration="75000" />
       <workItem from="1768048224717" duration="189000" />
-      <workItem from="1768048440190" duration="1177000" />
+      <workItem from="1768048440190" duration="11333000" />
+      <workItem from="1768169543512" duration="738000" />
+      <workItem from="1768401634293" duration="2754000" />
+      <workItem from="1768659448019" duration="11591000" />
     </task>
     <servers />
   </component>
@@ -189,6 +213,11 @@
           <url>file://$PROJECT_DIR$/PythonProject8/app/schemas.py</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountController.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

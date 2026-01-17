@@ -2,6 +2,7 @@ package com.example.demo.Account;
 
 import com.example.demo.security.Utilisateurs;
 import com.example.demo.Transaction.Transaction;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -43,8 +44,10 @@ public class Account {
 
     @OneToOne
     @JoinColumn(name = "utilisateur_id")
+    @JsonIgnore
     private Utilisateurs utilisateur;
 
     @OneToMany(mappedBy = "account", cascade = CascadeType.ALL)
+    @JsonIgnore  // ← ADD THIS!
     private List<Transaction> transactions;
 }
