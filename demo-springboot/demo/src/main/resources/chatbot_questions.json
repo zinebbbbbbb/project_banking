@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "fr": "Comment demander une carte bancaire ?",
+    "ar": "كيف يمكنني طلب بطاقة بنكية؟",
+    "darija": "كيفاش نقدر نطلب كارت بانكير؟",
+    "en": "How can I request a bank card?",
+    "answer_fr": "Vous pouvez demander une carte via l'onglet 'Demander une carte' dans votre espace client.",
+    "answer_ar": "يمكنك طلب بطاقة من خلال قسم 'طلب بطاقة' في حسابك.",
+    "answer_darija": "تقدر تطلب كارت بانكير من البروفيل ديالك فخانة 'طلب كارت'.",
+    "answer_en": "You can request a card from the 'Request Card' section in your client area."
+  },
+  {
+    "id": 2,
+    "fr": "Comment déclarer la perte de ma carte ?",
+    "ar": "كيف أصرح بضياع بطاقتي؟",
+    "darija": "كيفاش نصرح بضياع الكارت ديالي؟",
+    "en": "How do I report my lost card?",
+    "answer_fr": "Déclarez la perte via l'option 'Déclaration de perte' ou contactez le support.",
+    "answer_ar": "صرح بضياع البطاقة من خلال خيار 'تصريح بضياع البطاقة' أو اتصل بالدعم.",
+    "answer_darija": "صرح بضياع الكارت من خانة 'تصريح بضياع الكارت' أو عيط للسيرفيس.",
+    "answer_en": "Report the loss via the 'Report Lost Card' option or contact support."
+  },
+  {
+    "id": 3,
+    "fr": "Quels services propose la banque ?",
+    "ar": "ما هي الخدمات التي تقدمها البنك؟",
+    "darija": "شنو الخدمات لي كتوفرها البنك؟",
+    "en": "What services does the bank offer?",
+    "answer_fr": "Comptes, cartes, virements, notifications, scoring crédit, etc.",
+    "answer_ar": "حسابات، بطاقات، تحويلات، إشعارات، تقييم ائتماني، إلخ.",
+    "answer_darija": "حسابات، كارتات، تحويلات، إشعارات، سكور الكريدي...",
+    "answer_en": "Accounts, cards, transfers, notifications, credit scoring, etc."
+  },
+  {
+    "id": 4,
+    "fr": "Comment demander un crédit ?",
+    "ar": "كيف يمكنني طلب قرض؟",
+    "darija": "كيفاش نقدر نطلب كريدي؟",
+    "en": "How can I apply for a loan?",
+    "answer_fr": "Vous pouvez demander un crédit via l'espace client ou en contactant un conseiller.",
+    "answer_ar": "يمكنك طلب قرض من خلال حسابك أو عبر التواصل مع مستشار البنك.",
+    "answer_darija": "تقدر تطلب كريدي من البروفيل ديالك أو تمشي للوكالة.",
+    "answer_en": "You can apply for a loan through your client area or by contacting a bank advisor."
+  },
+  {
+    "id": 5,
+    "fr": "Quelles sont les conditions pour obtenir un crédit ?",
+    "ar": "ما هي شروط الحصول على قرض؟",
+    "darija": "شنو الشروط باش ناخد كريدي؟",
+    "en": "What are the conditions to get a loan?",
+    "answer_fr": "Les conditions dépendent de votre situation financière, de vos revenus et de votre historique bancaire.",
+    "answer_ar": "الشروط تعتمد على وضعك المالي، دخلك وتاريخك البنكي.",
+    "answer_darija": "الشروط كتعتمد على الحالة المادية، المدخول والتاريخ البنكي ديالك.",
+    "answer_en": "The conditions depend on your financial situation, income, and banking history."
+  },
+  {
+    "id": 6,
+    "fr": "Comment fonctionne le scoring de crédit ?",
+    "ar": "كيف يعمل تقييم (سكور) القرض؟",
+    "darija": "كيفاش كيخدم سكور الكريدي؟",
+    "en": "How does credit scoring work?",
+    "answer_fr": "Le scoring de crédit analyse vos données pour estimer le risque de non-remboursement.",
+    "answer_ar": "تقييم القرض يحلل بياناتك لتقدير مخاطر عدم السداد.",
+    "answer_darija": "سكور الكريدي كيدير تحليل للمعطيات ديالك باش يعرف واش ممكن ترد الكريدي ولا لا.",
+    "answer_en": "Credit scoring analyzes your data to estimate the risk of non-repayment."
+  }
+]
