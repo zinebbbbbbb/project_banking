@@ -1,7 +1,9 @@
 package com.example.demo.MlModel;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public record PredResponse(
-        Double defaultProbability,
-        String decisison
-) {
-}
+        Double probability_of_default,
+
+        String decision
+) {}

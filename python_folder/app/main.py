@@ -1,10 +1,22 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware  # ADD THIS
 from pydantic import BaseModel
 import joblib
 import numpy as np
 from pathlib import Path
 
 app = FastAPI()
+
+# ----------------------
+# ADD CORS MIDDLEWARE - ADD THIS SECTION
+# ----------------------
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:8082", "http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ----------------------
 # LOAD MODEL (ONCE)

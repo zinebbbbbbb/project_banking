@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05b6c554-dc4e-4c76-93c3-81781543c322" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b3187aa-2bb5-4deb-a307-f681cce3f78c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b3187aa-2bb5-4deb-a307-f681cce3f78c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b3187aa-2bb5-4deb-a307-f681cce3f78c/storage_v2/_src_/database/projet_banking.s3-ODA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b3187aa-2bb5-4deb-a307-f681cce3f78c/storage_v2/_src_/database/projet_banking.s3-ODA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/MlModel/CreditPredictionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Account/AccountResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Kafka/TransferProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Kafka/TransferProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransactionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/Transaction/TransferConfirmation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/MlModel/PredResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/MlModel/PredResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/MlModel/Prediction.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/MlModel/Prediction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/MlModel/WebClientConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/MlModel/WebClientConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/demo/src/main/java/com/example/demo/security/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_folder/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_folder/app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +24,8 @@
       <list>
         <option value="Python Script" />
         <option value="Dockerfile" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -199,7 +192,8 @@
       <workItem from="1768048440190" duration="11333000" />
       <workItem from="1768169543512" duration="738000" />
       <workItem from="1768401634293" duration="2754000" />
-      <workItem from="1768659448019" duration="11591000" />
+      <workItem from="1768659448019" duration="19167000" />
+      <workItem from="1768919076963" duration="11692000" />
     </task>
     <servers />
   </component>

@@ -1,32 +1,33 @@
 package com.example.demo.MlModel;
 
-import com.example.demo.Account.Account;
-
 import java.math.BigDecimal;
 
 public record Prediction(
 
-          Integer pay0,
-         Integer pay2,
-        Integer pay3,
-        Integer pay4,
-        Integer pay5,
-        Integer pay6,
+        BigDecimal LIMIT_BAL,
+        Integer SEX,
+        Integer EDUCATION,
+        Integer MARRIAGE,
+        Integer AGE,
 
-        BigDecimal billAmt1,
-        BigDecimal billAmt2,
-        BigDecimal billAmt3,
-        BigDecimal billAmt4,
-        BigDecimal billAmt5,
-        BigDecimal billAmt6,
+        Integer PAY_0,
+        Integer PAY_2,
+        Integer PAY_3,
+        Integer PAY_4,
+        Integer PAY_5,
+        Integer PAY_6,
 
-        BigDecimal payAmt1,
-        BigDecimal payAmt2,
-        BigDecimal payAmt3,
-        BigDecimal payAmt4,
-       BigDecimal payAmt5,
-        BigDecimal payAmt6,
+        BigDecimal BILL_AMT1,
+        BigDecimal BILL_AMT2,
+        BigDecimal BILL_AMT3,
+        BigDecimal BILL_AMT4,
+        BigDecimal BILL_AMT5,
+        BigDecimal BILL_AMT6,
 
-       Boolean defaultNextMonth
-) {
-}
+        BigDecimal PAY_AMT1,
+        BigDecimal PAY_AMT2,
+        BigDecimal PAY_AMT3,
+        BigDecimal PAY_AMT4,
+        BigDecimal PAY_AMT5,
+        BigDecimal PAY_AMT6
+) {}

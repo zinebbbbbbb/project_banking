@@ -34,9 +34,9 @@ public class SecurityConfiguration {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/admin/**").hasRole("ADMIN")
-                        .requestMatchers("/vente/**").permitAll()
                         .requestMatchers("/api/**").permitAll()
                         .requestMatchers("/api/transactions/**").permitAll()
+                        .requestMatchers("/api/predictions/**").permitAll()
                         .anyRequest().permitAll()
                 )
                 .sessionManagement(session -> session
@@ -54,13 +54,19 @@ public class SecurityConfiguration {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.setAllowedOrigins(List.of("http://localhost:8080"));
-        configuration.setAllowedMethods(List.of("GET","POST"));
-        configuration.setAllowedHeaders(List.of("Authorization","Content-Type"));
+        // Add port 8000 for FastAPI
+        configuration.setAllowedOrigins(List.of(
+                "http://localhost:8080",
+                "http://localhost:8000",
+                "http://localhost:3000"  // Add frontend if you have one
+        ));
+
+        configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+        configuration.setAllowedHeaders(List.of("*"));  // Allow all headers
+        configuration.setAllowCredentials(true);  // Add this if you're using credentials
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-
-        source.registerCorsConfiguration("/**",configuration);
+        source.registerCorsConfiguration("/**", configuration);
 
         return source;
     }

@@ -90,7 +90,9 @@ services:
     ports:
       - "8000:8000"
     networks:
-      - microservices-net
+      microservices-net:
+        aliases:
+          - fastapi
 
   spring_boot:
     build:
